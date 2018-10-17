@@ -2,9 +2,9 @@
 ---
 
 html {
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
 a.site-title {
-  color: #f6546a;
+  color: #f6546a !important;
 }
