@@ -22,10 +22,16 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  wonjiyap
 
 # Build settings
-markdown: kramdown
-theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
